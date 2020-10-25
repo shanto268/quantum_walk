@@ -1,0 +1,8 @@
+Chapter 1:
+> Heidelberg Multi- Configuration Time-Dependent Hartree (MCTDH) package
+> MCTDH can be seen as an algorithm to solve the time-dependent Schrödinger equation (i.e. to propagate wavepackets) for mul- tidimensional dynamical systems consisting of distinguishable particles 
+
+Chapter 2:
+> Reviews QM1 and QM2 stuff
+I need to review Griffith's for stronger grasp on the content
+

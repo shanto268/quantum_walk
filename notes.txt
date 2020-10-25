@@ -1,0 +1,5 @@
+Review graph theory - Appendix B.
+Read Appendix A - Linear Algebra.
+Unitary matrices with terms that are functions of time/frequency
+Understand phase factors
+

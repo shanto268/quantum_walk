@@ -1,0 +1,45 @@
+Random Walk:
+    Recurrent if 1 or 2D (guranteed to return to starting pos)
+    Transient if 3D or higher (not guranteed to return to starting pos)
+e.g. A drunk man will find his way home, but a drunk bird will fly on forever.
+
+Markov Chains:
+    State spaces and transition probabilities.
+    Stationary distribution: Probability of being at each state is constant. States are balanced.
+e.g. google's search algorithm and qlearning
+#https://github.com/pplab/quantum-walk
+#http://susan-stepney.blogspot.com/2014/02/mathjax.html
+Quantum Walks:
+    Discrete time case:
+        U^t unitary matrix resembled the dynamics of a qunatum walk. U is the evolution operator and t is the number of steps.
+    Continuous time case:
+        Transition rate controlling the jumping probability, which starts with a small value and increases continually so that the walker eventually steps on the next vertex. The dynamic is described by the unitary operator U (t) = exp(it H ), where t is time and H is a Hermitian matrix, whose entries are nonzero only if they correspond to neighboring vertices.
+    
+    There is nothing random about Quantum Walks since the evolution of the system is deterministic for completely isolated systems. It is natural to use the term “quantum walk” for unitary evolution and the term “quantum random walk” for non-unitary evolution. Measurement process introduces the probability distributions. 
+    In discrete time, the quantum walk has three steps. 
+        1) Coin operator on the coin state. 
+        2) Shift operator on the particle. 
+        3) Measurement in the computaional basis
+    Position of particle at each step is a superposition of the possible positions. The state of the particle is the result of the first two step operators mentioned above.
+
+    If we apply the coin operator followed by the shift operator over and over without intermediary measurements, the quantum correlations between different positions generate constructive or destructive interference, creating a behaviorcharacteristic of quantum walks that is different from the classical behavior. In this case, the probability distribution is not the normal distribution and the standard deviation is not sqrt(t).
+    
+    Quantum Walk Dynamics for discrete time: U = S(H@I). @ is a tensor product.
+                    |ψ(t )⟩ = U^t |ψ(0)⟩.
+
+Idea: 
+    Assymetry of the H operation reason as to why more matter than antimatter?
+
+Problems:
+    Transition Matrix (classical continuous time markov chains)
+
+Question:
+    Why is the relation of the standard deviation and the time important?
+
+Prime numbers:
+    information
+    fractals
+    encryption
+
+QIC:
+     https://www.qtml2020.com 

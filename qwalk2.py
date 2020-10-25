@@ -1,5 +1,6 @@
 from numpy import *
 from matplotlib.pyplot import *
+import statistics as stat 
 
 #spatial parameters: graph set up
 N = 100      # number of random steps
@@ -54,6 +55,8 @@ grid()
 title("Quantum Walk: Discrete time")
 ylabel("Probability")
 xlabel("N")
+savefig("plot.png")
 show()
 
+#Calculating standard deviation
 
